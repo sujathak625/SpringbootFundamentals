@@ -20,4 +20,9 @@ public class AppController {
 	public String getMain(){
 		return "Hello. I am the first microservice in your webapp";
 	}
+
+	@RequestMapping("/home2")
+	public String getSecondMicroService(){
+		return "Hello. I am the second microservice in your webapp";
+	}
 }
