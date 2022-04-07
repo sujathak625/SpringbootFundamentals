@@ -18,11 +18,16 @@ public class AppController {
 
 	@RequestMapping("/home")
 	public String getMain(){
-		return "Hello. I am the first microservice in your webapp";
+		return "Hello. I am the home page in your webapp";
 	}
 
-	@RequestMapping("/home2")
+	@RequestMapping("/ms1")
 	public String getSecondMicroService(){
+		return "Hello. I am the second microservice in your webapp";
+	}
+
+	@RequestMapping("/ms2")
+	public String getThirdMicroService(){
 		return "Hello. I am the second microservice in your webapp";
 	}
 }
