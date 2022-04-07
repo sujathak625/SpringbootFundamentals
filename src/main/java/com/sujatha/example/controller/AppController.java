@@ -26,9 +26,5 @@ public class AppController {
 		return "Hello. I am the second microservice in your webapp";
 	}
 
-	@RequestMapping("/ms1")
-	public String getSecondMicroService(){
-		return "Hello. I am the another microservice in your webapp";
-	}
 
 }
