@@ -31,8 +31,4 @@ public class AppController {
 		return "Hello. I am the another microservice in your webapp";
 	}
 
-	@RequestMapping("/ms3")
-	public String getFourthMicroService(){
-		return "Hello. I am the third microservice in your webapp";
-	}
 }
